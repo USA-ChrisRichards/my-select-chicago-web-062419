@@ -3,10 +3,10 @@ def my_select(collection)
   n = 0
   while n < collection.size
     element = collection[n]
-    n = n + 1
-    yield(if element == true)
+    if element == true
       final_collection << element
     end
+    n = n + 1
   end
    final_collection
 end

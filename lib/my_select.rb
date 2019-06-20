@@ -4,7 +4,7 @@ def my_select(collection)
   while n < collection.size
     element = collection[n]
     n = n + 1
-    if block == true
+    if block_given? == true
       final_collection << element
     end
   end

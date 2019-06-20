@@ -6,5 +6,5 @@ def my_select(collection)
     n = n + 1
     final_collection << element
   end
-   yield(final_collection)
+   final_collection
 end

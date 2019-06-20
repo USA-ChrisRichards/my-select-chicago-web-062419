@@ -6,6 +6,7 @@ def my_select(collection)
     n = n + 1
     if block == true
       final_collection << element
+    end
   end
    final_collection
 end
